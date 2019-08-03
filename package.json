@@ -1,0 +1,30 @@
+{
+  "name": "@cryptoket/secret-credential",
+  "version": "1.0.0",
+  "description": "module to manage secret credentials stored somewhere in the aws, or local file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiestaMadokaist/SecretCredential.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiestaMadokaist/SecretCredential/issues"
+  },
+  "homepage": "https://github.com/SiestaMadokaist/SecretCredential#readme",
+  "dependencies": {
+    "@cryptoket/ts-memoize": "^1.0.10",
+    "@cryptoket/ts-promise-helper": "^1.0.25",
+    "aws-sdk": "^2.503.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
