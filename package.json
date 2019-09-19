@@ -1,6 +1,6 @@
 {
   "name": "@cryptoket/secret-credential",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "module to manage secret credentials stored somewhere in the aws, or local file.",
   "main": "index.js",
   "scripts": {
