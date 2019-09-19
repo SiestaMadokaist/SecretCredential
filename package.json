@@ -1,8 +1,8 @@
 {
   "name": "@cryptoket/secret-credential",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "module to manage secret credentials stored somewhere in the aws, or local file.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "tsc -p tsconfig.json"
