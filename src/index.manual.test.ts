@@ -23,10 +23,10 @@ describe('CredentialBase', () => {
   it('can safely save file to s3, with encryption', async () => {
     await fj.saveEncryptedInS3({
       bucket: bucket(),
-      path,
+      encryptionContext: { myContext: encryptionContext() },
       keyId: keyId(),
+      path,
       region: region(),
-      encryptionContext: { myContext: encryptionContext() }
     });
     // await fj.saveEncryptedInS3(bucket(), path, keyId(), region(), { context: encryptionContext() });
   });
