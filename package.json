@@ -19,12 +19,13 @@
   "homepage": "https://github.com/SiestaMadokaist/SecretCredential#readme",
   "dependencies": {
     "@cryptoket/ts-memoize": "^1.0.10",
-    "@cryptoket/ts-promise-helper": "^1.0.25",
-    "aws-sdk": "^2.503.0"
+    "@cryptoket/ts-promise-helper": "^1.0.25"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
+    "@types/node": "^13.7.6",
+    "aws-sdk": "^2.503.0",
     "chai": "^4.2.0",
     "mocha": "^6.2.0"
   }
